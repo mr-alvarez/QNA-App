@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BY SCPO Demand - Question & Answer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>BY SCPO Demand - Question & Answer</h1>
+            <p class="tagline">Ask questions and get instant answers powered by AI</p>
+        </header>
+
+        <main class="main-content">
+            <!-- Chat/QA Display Area -->
+            <section class="qa-section">
+                <div class="qa-container" id="qaContainer">
+                    <div class="welcome-message">
+                        <h2>Welcome to Q&A Assistant</h2>
+                        <p>Type your question below to get started</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Input Section -->
+            <section class="input-section">
+                <form id="qaForm" class="qa-form">
+                    <div class="input-group">
+                        <input
+                            type="text"
+                            id="questionInput"
+                            class="question-input"
+                            placeholder="Type your question here..."
+                            autocomplete="off"
+                            aria-label="Question input"
+                        />
+                        <button
+                            type="submit"
+                            class="submit-btn"
+                            id="submitBtn"
+                            aria-label="Submit question"
+                        >
+                            <span>Ask</span>
+                            <span class="spinner" id="spinner"></span>
+                        </button>
+                    </div>
+                    <div class="error-message" id="errorMessage"></div>
+                </form>
+            </section>
+
+            <!-- Quick Actions (Optional) -->
+            <section class="quick-actions">
+                <p class="section-title">Quick Examples:</p>
+                <div class="example-buttons" id="exampleButtons">
+                    <button class="example-btn" data-example="What is machine learning?">
+                        Machine Learning
+                    </button>
+                    <button class="example-btn" data-example="How does AI work?">
+                        How AI Works
+                    </button>
+                    <button class="example-btn" data-example="What is natural language processing?">
+                        NLP
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 AI Question & Answer | Powered by Azure Foundry</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
