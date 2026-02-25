@@ -1,4 +1,4 @@
-"""Flask web app for Azure Language Service Question Answering."""
+"""Flask web app for Azure Language Service Question Answering. Camilo Alvarez""" 
 
 from dotenv import load_dotenv
 import os
